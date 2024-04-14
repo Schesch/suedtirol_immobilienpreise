@@ -1,0 +1,29 @@
+[theme]
+
+# Used to style primary interface elements. It's the color displayed most frequently across your app's
+# screens and components. Examples of widgets using this color are st.slider and st.checkbox.
+primaryColor = "#753f0a" # green
+
+# Background color for the main container.
+backgroundColor = "#ffffff" # white
+
+# Used as the background for most widgets. Examples of widgets with this background are st.sidebar,
+# st.text_input, st.date_input.
+secondaryBackgroundColor =  "#f7ddc3" # wheat  "#d7ab82" # yellow <-- not enough contrast
+
+# Font color for the page.
+textColor = "#000000" # black
+
+# Font family (serif | sans serif | mono) for the page. Will not impact code areas.
+# Default: "sans serif"
+font = "serif"
+
+[layout]
+# Set the maximum width of the main content area
+maxContentWidth = 1200  # Adjust the number to suit your needs
+
+# The width of the sidebar can be set using the following options:
+# - "auto": the default width of the sidebar is determined automatically based on its contents.
+# - "wide": increases the width of the sidebar.
+# - "narrow": reduces the width of the sidebar.
+sidebarWidth = "wide"  # Choose "auto", "wide", or "narrow"
