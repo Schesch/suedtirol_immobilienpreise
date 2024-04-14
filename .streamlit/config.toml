@@ -17,13 +17,3 @@ textColor = "#000000" # black
 # Font family (serif | sans serif | mono) for the page. Will not impact code areas.
 # Default: "sans serif"
 font = "serif"
-
-[layout]
-# Set the maximum width of the main content area
-maxContentWidth = 1200  # Adjust the number to suit your needs
-
-# The width of the sidebar can be set using the following options:
-# - "auto": the default width of the sidebar is determined automatically based on its contents.
-# - "wide": increases the width of the sidebar.
-# - "narrow": reduces the width of the sidebar.
-sidebarWidth = "wide"  # Choose "auto", "wide", or "narrow"
