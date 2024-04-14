@@ -4,10 +4,6 @@ import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 import numpy as np
 
-
-st.set_page_config(layout="wide")
-
-
 st.title("Preisvergleich Immobilien in Südtiroler Gemeinden")
 st.markdown("Das OMI (Osservatorio Mercato Immobiliare) erhebt halbjährlich Daten zu Immobilienpreisen. Die Berechnung basiert auf einer Stichprobe von abgeschlossenen Kaufverträgen. Mittels eines statistischen Verfahrens wird ein minimaler und maximaler Wert für die jeweilige Immobilie geschätzt.")
 st.markdown("Die OMI Werte ersetzen nicht die genaue Bewertung einzelner Immobilien, sondern geben eine Bandbreite an, in der der durchschnittliche Wert für Immobilien am wahrscheinlichsten liegt.")
