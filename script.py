@@ -18,7 +18,7 @@ url_ra = "https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatit
 st.markdown("Weitere Informationen zu den verwendenten Daten finden Sie hier: [OMI](%s)" % url_ra)
 
 
-df = pd.read_excel("/Users/schesch/Desktop/coding_projects/bz_whg_preise/preise_df.xlsx")
+df = pd.read_excel("https://raw.githubusercontent.com/Schesch/suedtirol_immobilienpreise/main/preise_df.xlsx")
 
 
 
