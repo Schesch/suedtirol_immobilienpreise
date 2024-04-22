@@ -127,7 +127,7 @@ def plot_income_comparison(df, income_type, regions, years='Anno'):
     st.plotly_chart(fig, use_container_width=True)
 
 # Example usage
-selected_regions = ['Südtirol', 'Durchschnitt der Regionen', 'Trentino', 'Lombardia', 'Veneto']  # Modify based on user selections
+selected_regions = ['Südtirol', 'Durchschnitt der Regionen', r1, r2, r3]  # Modify based on user selections
 plot_income_comparison(df_region, income_select, selected_regions)
 
 
