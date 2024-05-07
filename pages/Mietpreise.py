@@ -224,7 +224,7 @@ fig.add_trace(trace4)
 
 # Update layout with y-axis ticks
 fig.update_layout(
-    title="Vergleich der mittleren Verkaufspreise als Liniendiagramm",
+    title="Vergleich der mittleren Mietpreise als Liniendiagramm",
     xaxis=dict(
         title="Jahr",
         tickmode='array',
