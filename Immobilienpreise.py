@@ -52,7 +52,7 @@ elif typ_immobilie == "Villen und Einfamilienhäuser":
 elif typ_immobilie == "Büros":
     typ_immobilie = 6
 elif typ_immobilie == "Geschäfte":
-    typ_immobilie = 9
+    typ_immobilie = 5
 elif typ_immobilie == "Garagen":
     typ_immobilie = 13
 elif typ_immobilie == "Magazine":
